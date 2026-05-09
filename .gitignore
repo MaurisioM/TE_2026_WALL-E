@@ -27,3 +27,6 @@ release.properties
 *.jar
 *.war
 *.ear
+
+# Variables de entorno locales
+.env

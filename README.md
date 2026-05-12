@@ -76,3 +76,16 @@ fix/bug-login
 > Todos los cambios deben realizarse mediante **Pull Requests** hacia la rama `main`.
 
 ---
+
+## Cómo ejecutar el proyecto
+
+**Requisitos previos:** Docker y Docker Compose instalados.
+
+* **Paso 1:** Clonar el repositorio.
+* **Paso 2:** Copiar `.env.example` a `.env` y ajustar valores si es necesario.
+* **Paso 3:** Ejecutar `docker-compose up --build`
+* **Paso 4:** Acceder a http://localhost:8081 para la aplicación web.
+* **Paso 5:** Acceder a http://localhost:8080 para la API REST.
+
+**Cómo detener el entorno:** `docker-compose down`
+**Cómo limpiar volúmenes:** `docker-compose down -v`
